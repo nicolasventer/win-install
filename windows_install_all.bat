@@ -20,6 +20,8 @@ winget install -e --id Stremio.Stremio
 start "" https://jdownloader.org/download/index
 winget install -e --id NickeManarin.ScreenToGif
 winget install -e --id den4b.ReNamer
+winget install -e --id DownloadHelper.VdhCoApp
+@REM winget install -e --id MKVToolNix.MKVToolNix
 
 @REM game
 winget install -e --id Valve.Steam
@@ -37,14 +39,12 @@ start "" https://code.visualstudio.com/Download
 winget install -e --id Python.Python.3
 winget install -e --id OpenJS.NodeJS
 start "" https://winlibs.com/
-winget install -e --id LLVM.LLVM
+@REM winget install -e --id LLVM.LLVM
 
 @REM programming+
 winget install -e --id Meld.Meld
 winget install -e --id Graphviz.Graphviz
 
-
-@REM winget install -e --id MKVToolNix.MKVToolNix
 
 @REM https://winget.run/
 @REM winget search ""
