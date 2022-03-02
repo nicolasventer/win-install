@@ -42,6 +42,7 @@ start "" https://winlibs.com/
 @REM winget install -e --id LLVM.LLVM
 
 @REM programming+
+winget install -e --id UnityTechnologies.Unity.2021
 winget install -e --id Meld.Meld
 winget install -e --id Graphviz.Graphviz
 
